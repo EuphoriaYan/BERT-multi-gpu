@@ -114,3 +114,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IDEA files
+.idea/
+
+# Corpus
+corpus/
+
+# tf-records
+tfrecords/
+
+# output
+output/
+
+# model output
+model_output/
