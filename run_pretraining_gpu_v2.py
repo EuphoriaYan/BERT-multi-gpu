@@ -41,11 +41,11 @@ flags.DEFINE_string(
     "This specifies the model architecture.")
 
 flags.DEFINE_string(
-    "input_file", "tmp_data_128/sample1.tfrecords,tmp_data_128/sample2.tfrecords,tmp_data_128/sample3.tfrecords,tmp_data_128/sample4.tfrecords,tmp_data_128/sample5.tfrecords,tmp_data_128/sample6.tfrecords,tmp_data_128/sample7.tfrecords,tmp_data_128/sample8.tfrecords,tmp_data_128/sample9.tfrecords,tmp_data_128/sample10.tfrecords",
+    "input_file", None,
     "Input TF example files (can be a glob or comma separated).")
 
 flags.DEFINE_string(
-    "output_dir", "output2",
+    "output_dir", None,
     "The output directory where the model checkpoints will be written.")
 
 ## Other parameters
