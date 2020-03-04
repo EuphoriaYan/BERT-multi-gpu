@@ -13,4 +13,4 @@ python create_pretraining_data.py \
 --output_file ${output_file} \
 --vocab_file ${vocab_file} \
 --do_whole_word_mask True \
---dupe_factor 3
+--dupe_factor 1
